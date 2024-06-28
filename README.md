@@ -51,8 +51,12 @@ This project highlights my ability to integrate various technologies to create a
 
 ## GitHub Stats
 
-![Your GitHub stats](readme_stats.svg)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical)
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical)
+
 
 ## Connect with Me
 
