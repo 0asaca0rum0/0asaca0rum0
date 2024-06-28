@@ -60,4 +60,4 @@ My personal portfolio built with React and Tailwind CSS, featuring SVG animation
 
 ## Contributions
 
-![Contribution Graph](https://activity-graph.herokuapp.com/graph?username=0asaca0rum0&theme=radical)
+![Contribution Graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0asaca0rum0&theme=radical)
