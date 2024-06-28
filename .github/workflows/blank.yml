@@ -1,0 +1,23 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Update README
+        run: |
+          curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o tmp_stats.svg https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical&count_private=true
+          mv tmp_stats.svg readme_stats.svg
+      - name: Commit updated README
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add readme_stats.svg
+          git commit -m "Update README with new stats"
+          git push
