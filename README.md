@@ -9,12 +9,10 @@ I am a passionate web and software developer with 4 years of experience in UI de
 
 - 🔭 I’m currently working on [7awasli](https://github.com/0asaca0rum0/7awasli) - a React Native app.
 - 🌱 I’m currently learning machine learning techniques and deep learning.
-- 👯 I’m looking to collaborate on open-source projects.
 - 💬 Ask me about React, Next.js, Tailwind CSS, and machine learning.
 - 📫 How to reach me: [foxdeath100@gmail.com](mailto:foxdeath100@gmail.com)
 - ⚡ Fun fact: I love minimalist design and creating interactive web applications.
 - 👨‍💻 I’m currently working as a part-time freelancer.
-
 
 ## Skills
 
@@ -28,7 +26,19 @@ I am a passionate web and software developer with 4 years of experience in UI de
 ![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F00?style=for-the-badge&logo=machine-learning&logoColor=white)
 ![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 
-## Projects### [Bilwafi Shop](https://bilwafi.shop)
+## Projects
+
+### [7awasli](https://github.com/0asaca0rum0/7awasli)
+A React Native app designed to provide users with an intuitive and efficient mobile experience. Currently under development.
+
+### [Portfolio](https://github.com/0asaca0rum0/portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-blue?style=for-the-badge&logo=appveyor)](https://elmasri.pages.dev)
+
+My personal portfolio built with React and Tailwind CSS, featuring SVG animations and a glassmorphism design. It showcases my projects, skills, and contact information.
+
+### [Bilwafi Shop](https://bilwafi.shop)
+[![Bilwafi Shop](https://img.shields.io/badge/Bilwafi%20Shop-Visit%20Now-green?style=for-the-badge&logo=appveyor)](https://bilwafi.shop)
+
 A comprehensive full-stack e-commerce website specializing in cosmetics. This project leverages modern technologies to deliver a seamless online shopping experience.
 
 - **Frontend:** Developed using Next.js for server-side rendering and static site generation, providing fast load times and a smooth user experience.
@@ -39,15 +49,9 @@ A comprehensive full-stack e-commerce website specializing in cosmetics. This pr
 
 This project highlights my ability to integrate various technologies to create a high-performance, user-friendly online store.
 
-### [7awasli](https://github.com/0asaca0rum0/7awasli)
-A React Native app designed to provide users with an intuitive and efficient mobile experience. Currently under development.
-
-### [Portfolio](https://github.com/0asaca0rum0/portfolio)
-My personal portfolio built with React and Tailwind CSS, featuring SVG animations and a glassmorphism design. It showcases my projects, skills, and contact information.
-
 ## GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical)
+![Your GitHub stats](readme_stats.svg)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical)
 
 ## Connect with Me
@@ -57,7 +61,6 @@ My personal portfolio built with React and Tailwind CSS, featuring SVG animation
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:foxdeath100@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Now-blue?style=for-the-badge&logo=appveyor)](https://elmasri.pages.dev/)
 
-
 ## Contributions
 
-![Contribution Graph](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=0asaca0rum0&theme=radical)
+![Contribution Graph](https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical&count_private=true)
