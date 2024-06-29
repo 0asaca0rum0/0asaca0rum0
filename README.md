@@ -40,6 +40,20 @@ Full-stack e-commerce site for cosmetics using Next.js, Express.js, MongoDB, and
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=radical" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7" alt="GitHub Trophies" />
+</p>
+
+## Contribution Graph
+
+<p align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=0asaca0rum0&theme=react-dark" alt="Contribution Graph" />
+</p>
+
 ## Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmed-elmasri-149aa626b/)
