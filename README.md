@@ -44,14 +44,10 @@ Full-stack e-commerce site for cosmetics using Next.js, Express.js, MongoDB, and
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=radical" alt="GitHub Streak" />
 </p>
 
+## GitHub Trophies
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7" alt="GitHub Trophies" />
-</p>
-
-## Contribution Graph
-
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=0asaca0rum0&theme=react-dark" alt="Contribution Graph" />
 </p>
 
 ## Connect with Me
