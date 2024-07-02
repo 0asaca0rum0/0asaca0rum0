@@ -39,7 +39,7 @@ Full-stack e-commerce site for cosmetics using Next.js, Express.js, MongoDB, and
 
 ## GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7" alt="GitHub Trophies" />
+  <img src="github_trophies.svg" alt="GitHub Trophies" />
 </p>
 
 ## Connect with Me
