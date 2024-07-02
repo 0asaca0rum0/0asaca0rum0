@@ -9,25 +9,62 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Debug Information
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Repository contents:"
+          ls -la
+          echo "Git status:"
+          git status
+
       - name: Update README stats
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           echo "Fetching GitHub stats..."
           curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o github_stats.svg https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical&count_private=true
+          if [ $? -ne 0 ]; then echo "Error fetching GitHub stats"; exit 1; fi
+          
           echo "Fetching top languages..."
           curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o top_langs.svg https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical
+          if [ $? -ne 0 ]; then echo "Error fetching top languages"; exit 1; fi
+          
           echo "Fetching GitHub streak..."
           curl -v -o github_streak.svg https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=radical
+          if [ $? -ne 0 ]; then echo "Error fetching GitHub streak"; exit 1; fi
+          
           echo "Checking file sizes..."
           ls -l *.svg
+          
           echo "Checking file contents..."
-          cat github_stats.svg
-          cat top_langs.svg
-          cat github_streak.svg
-      - name: Commit updated README
+          head -n 5 github_stats.svg
+          head -n 5 top_langs.svg
+          head -n 5 github_streak.svg
+
+      - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add github_stats.svg top_langs.svg github_streak.svg
-          git commit -m "Update README stats" || echo "No changes to commit"
-          git push
+          git diff --staged --quiet || (git commit -m "Update README stats" && git push)
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Check for errors
+        if: failure()
+        run: |
+          echo "Workflow failed. Here's some additional information:"
+          echo "GitHub context:"
+          echo "${{ toJson(github) }}"
+          echo "Job context:"
+          echo "${{ toJson(job) }}"
+          echo "Steps context:"
+          echo "${{ toJson(steps) }}"
