@@ -30,19 +30,19 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           echo "Fetching GitHub stats..."
-          curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o github_stats.svg https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=radical&count_private=true
+          curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o github_stats.svg "https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&theme=dark&count_private=true"
           if [ $? -ne 0 ]; then echo "Error fetching GitHub stats"; exit 1; fi
           
           echo "Fetching top languages..."
-          curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o top_langs.svg https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical
+          curl -v -H "Authorization: token ${{ secrets.GH_TOKEN }}" -o top_langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=dark"
           if [ $? -ne 0 ]; then echo "Error fetching top languages"; exit 1; fi
           
           echo "Fetching GitHub streak..."
-          curl -v -o github_streak.svg https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=radical
+          curl -v -o github_streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=dark"
           if [ $? -ne 0 ]; then echo "Error fetching GitHub streak"; exit 1; fi
           
           echo "Fetching GitHub trophies..."
-          curl -v -o github_trophies.svg https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7
+          curl -v -o github_trophies.svg "https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=darkhub&column=7"
           if [ $? -ne 0 ]; then echo "Error fetching GitHub trophies"; exit 1; fi
           
           echo "Checking file sizes..."
