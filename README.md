@@ -1,5 +1,4 @@
 # Hi there, I'm المصري أحمد 👋
-
 [![GitHub followers](https://img.shields.io/github/followers/0asaca0rum0?label=Follow&style=social)](https://github.com/0asaca0rum0)
 [![Twitter Follow](https://img.shields.io/twitter/follow/KARASUMA_RENYA1?style=social)](https://x.com/KARASUMA_RENYA1)
 
@@ -28,18 +27,23 @@ Full-stack e-commerce site for cosmetics using Next.js, Express.js, MongoDB, and
 
 ## GitHub Stats
 <p align="center">
-  <img src="github_stats.svg" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&count_private=true&theme=radical" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img src="top_langs.svg" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 <p align="center">
-  <img src="github_streak.svg" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=0asaca0rum0&theme=radical" alt="GitHub Streak" />
 </p>
 
 ## GitHub Trophies
 <p align="center">
-  <img src="github_trophies.svg" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7" alt="GitHub Trophies" />
+</p>
+
+## Private Contributions
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&count_private=true&include_all_commits=true&theme=radical" alt="Private Contributions" />
 </p>
 
 ## Connect with Me
