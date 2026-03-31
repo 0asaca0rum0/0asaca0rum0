@@ -80,22 +80,22 @@ My current architectural focus is on deploying AI models at the edge and utilizi
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&theme=radical&v=1" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&count_private=true&theme=radical&v=2#.svg" alt="GitHub Stats" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical&v=1" alt="Top Languages" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical&v=2#.svg" alt="Top Languages" width="100%"/>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://streak-stats.demolab.com/?user=0asaca0rum0&theme=radical&v=1" alt="GitHub Streak" width="100%"/>
+      <img src="https://streak-stats.demolab.com/?user=0asaca0rum0&theme=radical&v=2#.svg" alt="GitHub Streak" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&include_all_commits=true&theme=radical&title_color=ffffff&text_color=9f9f9f&icon_color=ff0000&bg_color=151515&custom_title=Private%20Contributions&v=1" alt="Private Contributions" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=0asaca0rum0&show_icons=true&count_private=true&include_all_commits=true&theme=radical&title_color=ffffff&text_color=9f9f9f&icon_color=ff0000&bg_color=151515&custom_title=Private%20Contributions&v=2#.svg" alt="Private Contributions" width="100%"/>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7&v=1" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7&v=2#.svg" alt="GitHub Trophies" />
 </div>
