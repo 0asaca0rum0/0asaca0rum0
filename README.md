@@ -20,11 +20,12 @@
 
 ## 🔬 High-Level Overview
 
-I have 5 years of experience spanning full-stack development, machine learning, and embedded systems. My current architectural focus is on deploying AI models at the edge and utilizing hardware acceleration.
+I have: 
+5 years of experience spanning full-stack web and mobile  development
+3 years of experience  in machine learning, and embedded systems.
+My current architectural focus is on deploying AI models at the edge and utilizing hardware acceleration and ANN optimization techniques (distilletion ,quantization ,prunning etc).
 
-* **Core Focus:** AI modeling, embedded AI, real-time signal processing, and hardware acceleration (TPUs, NPUs, systolic arrays).
-* **Research Interests:** Computational neuroscience, Riemannian geometry, and biomedical image classification.
-* **Development:** Building end-to-end systems from low-level algorithms to high-level cross-platform applications.
+* **Core Focus:** AI model development, embedded AI,  and hardware acceleration (TPUs, NPUs, systolic arrays).
 
 ---
 
@@ -47,9 +48,9 @@ I have 5 years of experience spanning full-stack development, machine learning, 
 
 ## ⚙️ Experience & Research
 
-* **LS2N Laboratory (STR Team):** Engineering intern focused on real-time systems and signal processing.
+* **LS2N Laboratory (STR Team):** Engineering intern focused on real-time systems and signal processing,worked on tpus ,stm32 and bcresnet,studied quantization induced model divergence.
 * **Medical AI Research:** Designed and tested a Mixture of Experts (MOE) architecture for the detection and classification of skin cancer.
-* **Bioacoustics:** Engineered data preprocessing pipelines and classification models for the BirdCLEF bioacoustic dataset.
+* **Bioacoustics:** Engineered data preprocessing pipelines and classification models for the BirdCLEF bioacoustic dataset during kaggle competition.
 
 ---
 
@@ -59,8 +60,8 @@ I have 5 years of experience spanning full-stack development, machine learning, 
   <summary><b>AI & Automation Tools</b> <i>(Click to expand)</i></summary>
   <ul>
     <li><b>Manga Localization Pipeline:</b> An end-to-end tool implementing image segmentation, OCR, and inpainting to automate translation workflows.</li>
-    <li><b>Savr:</b> A browser extension engineered to scrape and compare cross-platform web pricing automatically.</li>
-    <li><b>LazyFill:</b> A high-performance form auto-filling extension built on the WXT framework and Bun.</li>
+    <li><b>Savr:</b> A browser extension engineered to scrape and compare cross-platform web pricing automatically,use of nlp and nla for quality control of products and sellers .</li>
+    <li><b>LazyFill:</b> A high-performance form auto-filling extension built on the WXT framework and Bun, uses semantic understanding of fields and embedding to fill in job applications.</li>
   </ul>
 </details>
 
@@ -79,22 +80,22 @@ I have 5 years of experience spanning full-stack development, machine learning, 
 <table align="center" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&theme=radical&v=1#.svg" alt="GitHub Stats" width="100%"/>
+      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&theme=radical&v=1" alt="GitHub Stats" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical&v=1#.svg" alt="Top Languages" width="100%"/>
+      <img src="https://github-readme-stats.demolab.com/api/top-langs/?username=0asaca0rum0&layout=compact&theme=radical&v=1" alt="Top Languages" width="100%"/>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="https://streak-stats.demolab.com/?user=0asaca0rum0&theme=radical&v=1#.svg" alt="GitHub Streak" width="100%"/>
+      <img src="https://streak-stats.demolab.com/?user=0asaca0rum0&theme=radical&v=1" alt="GitHub Streak" width="100%"/>
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&include_all_commits=true&theme=radical&title_color=ffffff&text_color=9f9f9f&icon_color=ff0000&bg_color=151515&custom_title=Private%20Contributions&v=1#.svg" alt="Private Contributions" width="100%"/>
+      <img src="https://github-readme-stats.demolab.com/api?username=0asaca0rum0&show_icons=true&count_private=true&include_all_commits=true&theme=radical&title_color=ffffff&text_color=9f9f9f&icon_color=ff0000&bg_color=151515&custom_title=Private%20Contributions&v=1" alt="Private Contributions" width="100%"/>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7&v=1#.svg" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=0asaca0rum0&theme=radical&column=7&v=1" alt="GitHub Trophies" />
 </div>
